@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+.navoption {
+  color: blue;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #c9c9c9;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.4);
+}
+.main_one,
+.main_two,
+.main_three {
+  text-align: center;
+}
+.masterCard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main_three {
+  margin-top: 20px;
+}
+.footer_one {
+  margin-bottom: 15px;
+}
+.main_two {
+  border: 1.6px solid orange;
+  width: 40vw;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 8px 5px 0 rgba(0, 0, 0, 0.4);
+}
+.first_ul {
+  gap: 80px;
+}
+.main_one {
+  margin: 10px 0;
+}
+.main_data {
+  margin-bottom: 20px;
+}
+.bttn1 {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bolder;
+}
+
+.card_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  margin-left: 10px;
+}
+.btn2 {
+  background-color: #02afd6;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bolder;
+  position: relative;
+  left: 40px;
+  /* margin-left: px; */
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10px;
+  background-color: white;
+}
+.two {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e5f8fd;
+  /* width: 25vw; */
+}
+.test {
+  /* width: 15vw; */
+}
+.yield {
+  position: relative;
+  left: -55px;
+}
+.maindiv {
+  background: linear-gradient(
+    to bottom,
+    #fff8ee 0%,
+    #fff8ee 50%,
+    #ffffff 50%,
+    #ffffff 100%
+  );
+}
+.card1,
+.card2 {
+  border: 2px solid #c9c9c9;
+  border-radius: 10px;
+  margin: 20px 0;
+  text-align: start;
+}
+/* .mascot {
+  position: relative;
+  right: 0;
+  top: 30%;
+  width: 200px;
+} */
+@media screen and (max-width: 2561px) {
+  .mascot {
+    position: absolute;
+    right: 24%;
+    top: 13%;
+    width: 200px;
+  }
+  .test {
+    width: 9vw;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .mascot {
+    position: absolute;
+    right: 21%;
+    top: 26%;
+    width: 200px;
+  }
+  .test{
+    width: 15vw;
+  }
+}
+@media screen and (max-width: 1441px) {
+  .mascot {
+    position: absolute;
+    right: 20%;
+    top: 12%;
+    width: 200px;
+  }
+  .test {
+    width: 18vw;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .first_ul {
+    gap: 15px;
+  }
+  .main_two {
+    width: 80vw;
+    margin: auto;
+  }
+  .mascot {
+    position: absolute;
+    right: -6%;
+    top: 12%;
+    width: 200px;
+  }
+  .test {
+    width: 25vw;
+  }
+  .maindiv {
+    width: 105vw;
+  }
+  nav li {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .main_two {
+    width: 95vw;
+    margin: auto;
+  }
+  .mascot {
+    display: none;
+  }
+  .test {
+    width: 35vw;
+  }
+  nav li {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .masterCard {
+    display: block;
+  }
+  .test {
+    width: 60vw;
+  }
+  .bonds {
+    margin: 20px 0;
+  }
+  nav {
+    display: block;
+    text-align: center;
+  }
+  .box,
+  ul {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 321px) {
+  .test {
+    width: 70vw;
+  }
+}
+
+/* ------------------------------------------------------------------------------------------- */
+/* * {
+  box-sizing: border-box;
+} */
+
+.mySlides {
+  display: none;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.dot {
+  cursor: pointer;
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
